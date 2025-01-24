@@ -75,8 +75,3 @@ Acknowledgments
 Flask for the web framework
 Solana for blockchain interactions
 SQLAlchemy for database management
-
-**Notes:**
-- Replace `[your-repository-url]` with the actual URL of your GitHub repository.
-- Adjust the license according to your project's needs. Common choices include MIT, Apache 2.0, or GPL if you want to share your code with others.
-- The `.env` file setup is suggested for managing environment variables, which is a good practice for keeping sensitive information out of your codebase. Make sure to exclude `.env` from version control by adding it to `.gitignore`.
