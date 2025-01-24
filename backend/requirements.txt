@@ -1,0 +1,7 @@
+Flask==2.1.0
+Flask-SQLAlchemy==2.5.1
+Flask-Bcrypt==1.0.1
+Flask-JWT-Extended==4.3.1
+solana==0.27.0
+python-dotenv==0.20.0
+gunicorn==20.1.0
