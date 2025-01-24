@@ -1,4 +1,4 @@
-# pumpitup
+# Pumpitup
 Upload songs and PUMP THEM UP! 
 
 # Song Investment App
