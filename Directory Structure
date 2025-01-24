@@ -4,7 +4,8 @@ song-investment-app/
 │   │   ├── __init__.py
 │   │   ├── models.py
 │   │   ├── routes.py
-│   │   └── song_investment_app.py
+│   │   ├── song_investment_app.py
+│   │   └── ai_recommender.py  # New AI recommendation system
 │   ├── alembic/
 │   │   ├── versions/
 │   │   ├── env.py
@@ -21,7 +22,8 @@ song-investment-app/
 │   │   ├── components/
 │   │   │   ├── Header.js
 │   │   │   ├── SongCard.js
-│   │   │   └── InvestForm.js
+│   │   │   ├── InvestForm.js
+│   │   │   └── Recommendation.js  # New component for displaying AI recommendations
 │   │   ├── pages/
 │   │   │   ├── Home.js
 │   │   │   ├── Upload.js
