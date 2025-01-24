@@ -62,10 +62,11 @@ Basic AI integration for recommendations; can be enhanced.
 Contributing
 Contributions are welcome! Open an issue for major changes, and ensure to update tests with new code.
 
-Acknowledgments
-Flask
-Solana
-SQLAlchemy
-AI for enhancing user experience
+Acknowledgments:
+
+Flask: For providing a solid foundation for our web application with its lightweight, flexible framework.
+Solana: For enabling secure, decentralized wallet integration and opening up new possibilities in music investment through blockchain technology.
+SQLAlchemy: For simplifying database management, ensuring our data operations are efficient and scalable.
+AI Technologies: For enhancing user experience through personalized song recommendations, making music discovery intuitive and engaging.
 
 License https://github.com/Ghost081280/pumpitup/blob/main/LICENSE
