@@ -62,9 +62,6 @@ Basic AI integration for recommendations; can be enhanced.
 Contributing
 Contributions are welcome! Open an issue for major changes, and ensure to update tests with new code.
 
-License
-[Choose an appropriate license or link to one]
-
 Acknowledgments
 Flask
 Solana
