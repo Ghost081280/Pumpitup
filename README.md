@@ -2,67 +2,76 @@
 Upload songs and PUMP THEM UP! 
 
 
+markdown
 # Song Investment App
 
-A Flask-based web application where users can upload songs and invest in them using Solana cryptocurrency.
-
-## Overview
-
-This application enables users to:
-- Sign in using their Solana wallet
-- Upload music files (MP3 or WAV formats)
-- View a list of all uploaded songs with investment details
-- Invest in songs using Solana
+A Flask-based web application where users can upload songs, invest in them using Solana cryptocurrency, and receive personalized song recommendations.
 
 ## Features
 
-- **User Authentication:** Users sign in via their Solana wallet address.
-- **Song Management:** Upload, view, and download songs.
-- **Investments:** Users can invest Solana in songs, similar to how one might invest in memes on platforms like pump.fun.
+- **Solana Authentication**: Sign in using your Solana wallet.
+- **Song Upload**: Share your original music in MP3 or WAV format.
+- **Investment**: Invest in songs you believe in with Solana.
+- **AI Recommendations**: Personalized song suggestions based on your music taste.
 
 ## Setup
 
 ### Prerequisites
 
 - Python 3.x
-- A Solana wallet (e.g., Phantom for testing on devnet)
-- Access to a Solana RPC node (e.g., devnet for development)
+- Solana wallet (e.g., Phantom)
+- Access to a Solana RPC node (devnet for development)
 
 ### Installation
 
 1. **Clone the repository:**
    ```bash
    git clone [your-repository-url]
-   cd song_investment_app
+   cd song-investment-app
 
 Install dependencies:
 bash
 pip install -r requirements.txt
 Setup Environment Variables:
-Create a .env file in the project directory and add:
+Create a .env file:
 JWT_SECRET_KEY=your-secret-key
-SOLANA_RPC_URL=https://api.devnet.solana.com  # Use devnet for testing
+SOLANA_RPC_URL=https://api.devnet.solana.com
 Run the Application:
 bash
 python song_investment_app.py
 
-Development Notes
-Database: SQLite for simplicity; consider using PostgreSQL or MySQL for production.
-Security: The current setup uses a placeholder for Solana transactions. In production, implement client-side transaction signing.
-File Storage: Files are stored locally; for scalability, consider using cloud storage solutions like AWS S3 or Google Cloud Storage.
-
 Usage
-Sign In: Use your Solana wallet address to sign in.
-Upload Song: Navigate to the upload endpoint to share your music.
-Invest: Choose a song and invest by specifying an amount in SOL.
+Login: Use your Solana wallet address.
+Upload: Share your music.
+Invest: Support songs with SOL investment.
+Get Recommendations: Discover new music tailored to your taste.
 
 API Endpoints
-POST /signin - Sign in with Solana wallet
-GET/PUT /user/profile - View or update user profile
-POST /upload - Upload a new song
-GET /songs - List all songs available for investment
-POST /songs/{song_id}/invest - Invest in a specific song
-GET /songs/{filename} - Download a song
+POST /signin - Login with Solana wallet
+GET/PUT /user/profile - Manage user profile
+POST /upload - Upload a song
+GET /songs - Browse songs
+POST /songs/{song_id}/invest - Invest in a song
+GET /songs/{filename} - Download song
+GET /recommendations - Fetch song recommendations
+
+Development Notes
+SQLite for database, consider PostgreSQL for production.
+Placeholder Solana transactions; implement client-side signing for production.
+Local file storage; for scalability, use cloud solutions.
+Basic AI integration for recommendations; can be enhanced.
+
+Contributing
+Contributions are welcome! Open an issue for major changes, and ensure to update tests with new code.
+
+License
+[Choose an appropriate license or link to one]
+
+Acknowledgments
+Flask
+Solana
+SQLAlchemy
+AI for enhancing user experience
 
 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
