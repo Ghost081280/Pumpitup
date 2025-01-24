@@ -2,9 +2,6 @@
 Upload songs and PUMP THEM UP! 
 
 
-Here's a basic README.md for your song investment application:
-
-markdown
 # Song Investment App
 
 A Flask-based web application where users can upload songs and invest in them using Solana cryptocurrency.
