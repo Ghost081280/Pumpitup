@@ -69,4 +69,4 @@ Solana: For enabling secure, decentralized wallet integration and opening up new
 SQLAlchemy: For simplifying database management, ensuring our data operations are efficient and scalable.
 AI Technologies: For enhancing user experience through personalized song recommendations, making music discovery intuitive and engaging.
 
-License https://github.com/Ghost081280/pumpitup/blob/main/LICENSE
+License: https://github.com/Ghost081280/pumpitup/blob/main/LICENSE
