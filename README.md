@@ -1,8 +1,6 @@
 # pumpitup
 Upload songs and PUMP THEM UP! 
 
-
-markdown
 # Song Investment App
 
 A Flask-based web application where users can upload songs, invest in them using Solana cryptocurrency, and receive personalized song recommendations.
