@@ -1,0 +1,18 @@
+# Python
+*.pyc
+__pycache__/
+.env
+
+# Node
+node_modules/
+build/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
