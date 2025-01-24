@@ -1,0 +1,37 @@
+song-investment-app/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── routes.py
+│   │   └── song_investment_app.py
+│   ├── alembic/
+│   │   ├── versions/
+│   │   ├── env.py
+│   │   └── alembic.ini
+│   ├── config.py
+│   ├── requirements.txt
+│   ├── .env.example
+│   └── Dockerfile
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── styles.css
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── SongCard.js
+│   │   │   └── InvestForm.js
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── Upload.js
+│   │   │   ├── Song.js
+│   │   │   └── Profile.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── script.js
+│   ├── package.json
+│   └── Dockerfile
+├── docker-compose.yml
+├── README.md
+└── .gitignore
