@@ -69,8 +69,3 @@ SQLAlchemy
 AI for enhancing user experience
 
 License https://github.com/Ghost081280/pumpitup/blob/main/LICENSE
-
-Acknowledgments
-Flask for the web framework
-Solana for blockchain interactions
-SQLAlchemy for database management
